@@ -1,4 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@700&family=Merienda:wght@700&display=swap');
+@font-face {
+	font-family: 'Merienda';
+	src: url('fonts/Merienda/static/Merienda-Bold.ttf') format('truetype');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'Glegoo';
+	src: url('fonts/Glegoo/Glegoo-Regular.ttf') format('truetype');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Merienda';
+	src: url('fonts/Merienda/static/Merienda-Bold.ttf') format('truetype');
+	font-weight: bold;
+}
+
 
 /* variáveis */
 :root {
@@ -16,6 +33,10 @@ body {
     font-family: var(--fonte-textos);
     background-color: var(--cor-fundo);
     cursor: url('img/cursor.png'), auto;
+}
+
+a {
+	cursor: url('img/hover.png'), auto;
 }
 
 /* barra de navegação */
