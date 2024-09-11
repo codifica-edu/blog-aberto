@@ -19,20 +19,21 @@
 
 /* variáveis */
 :root {
-    --cor-menu: #F2AE2E; 
-    --cor-textos: #362D73; 
-    --cor-fundo: #87C5F0;
-    --roxo-claro: #e1d9ff;
-
-    --fonte-textos: "Glegoo", serif;
-    --fonte-titulos: "Merienda", cursive;
+	--cor-menu: #F2AE2E; 
+	--cor-textos: #362D73; 
+	--cor-fundo: #87C5F0;
+	--roxo-claro: #e1d9ff;
+	--roxo-escuro: #4B0082
+	
+	--fonte-textos: "Glegoo", serif;
+	--fonte-titulos: "Merienda", cursive;
 }
 
 /* corpo da página */
 body {
-    font-family: var(--fonte-textos);
-    background-color: var(--cor-fundo);
-    cursor: url('img/cursor.png'), auto;
+	font-family: var(--fonte-textos);
+	background-color: var(--cor-fundo);
+	cursor: url('img/cursor.png'), auto;
 }
 
 a {
@@ -41,7 +42,7 @@ a {
 
 /* barra de navegação */
 #barra-nav {
-    background-color: var(--cor-menu);
+	background-color: var(--cor-menu);
 	padding: 1rem 0;
 	position: fixed;
 	top: 0;
@@ -71,7 +72,7 @@ a {
 
 /* hover dos links da barra de navegação */
 #barra-nav .nav-link:hover {
-	color: var(--roxo-claro);
+	color: var(--roxo-escuro);
 	background-color: rgba(255, 255, 255, 0.5);
 	text-decoration: none;
 }
@@ -81,7 +82,7 @@ a {
 	display: inline-block;
 	position: relative;
 	left: 5rem;
-    width: 40px;
+    	width: 40px;
 }
 
 /* customização da hero image */
@@ -106,7 +107,7 @@ a {
 .hero-titulo {
 	font-size: 4.5rem;
 	font-family: var(--fonte-titulos);
-    color: var(--cor-menu)
+    	color: var(--cor-menu)
 }
 
 /* subtitulo da página */
